@@ -1,0 +1,107 @@
+
+body{
+    background-color: gray;
+    background-size:cover;
+    width: 100vh;
+   overflow-x: hidden;
+}
+.a{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+    font-size:x-large;
+
+}
+.a::after{
+    content: ".";
+    color: red;
+}
+.b{
+    position: absolute;
+    height: 40px;
+    padding-left: 55%;
+    padding-top: 0.5%;
+}
+.c{
+    position: absolute;
+    padding-left: 57%;
+    color: white;
+}
+.d{
+    position: absolute;
+    padding-top: 0.5%;
+    padding-left: 70%;
+}
+.e{
+    position: absolute;
+    padding-left: 72%;
+    color: white;
+}
+.img{
+    position: absolute;
+    height: 100%;
+    width: 900px;
+    padding-left: 50%;
+    z-index: -1;
+}
+.navbar{
+    position: absolute;
+background-color: white;
+height: 50px;
+width: 80%;
+margin-top: 75px;
+margin-left: 2%;
+border-radius: 50px;
+}
+.menu{
+    padding-left: 15px;
+    word-spacing: 20px;
+}
+a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:hover{
+    
+    color: red ;
+}
+.facebook{
+    position: absolute;
+    padding-top: 5%;
+    padding-left: 75%;
+    word-spacing: 20px;
+}
+.msg{
+    position: absolute;
+    padding-top: 15%;
+    padding-left: 10%;
+    line-height: 20px;
+}
+.welcome{
+    
+    font-family: 'Borel', cursive;
+font-family: 'Handjet', cursive;
+font-size:xx-large;
+color: red;
+}
+.nd{
+    font-family: 'Borel', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-size: large;
+    color: white;
+}
+.rd{
+    color: yellowgreen;
+    font-size: larger;
+}
+.learn{
+    margin-left: 20px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 0px 20px 0px 20px;
+}
